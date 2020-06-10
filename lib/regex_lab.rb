@@ -28,7 +28,7 @@ end
 def valid_phone_number?(phone)
   #phone.match(/([0-9] *?){10}|(\([0-9]{3}\)(([0-9]{3}-[0-9]{4})|[0-9]{7})\b)/) ? true : false
   #three OR statements
-  #first: test to see if there are 9 numbers with an optional space 
+  #first: test to see if there are 9 numbers with an optional space
   #second: create two capture groups
     #first capture group returns 3 numbers that are inside of parenthesis
     #second capture group checks for 3 numbers followed by a dash, follwed by four numbers
